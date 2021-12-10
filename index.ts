@@ -55,14 +55,20 @@ console.log(n2--);
 console.log(n1 * n2);
 console.log(n1 % n2);
 /*operator*/
-var num:number=3
-var num2:number=7
-console.log(num>num2)
-console.log(num==num2)
-console.log(num!=num2)
+var num: number = 3;
+var num2: number = 7;
+console.log(num > num2);
+console.log(num == num2);
+console.log(num != num2);
 /*if loop*/
 var num: number = 5;
 if (num > 0) {
   console.log('number  is positive');
 }
-console.log('hi');
+/*if else*/
+num = 12;
+if (num % 2 == 0) {
+  console.log('number is even');
+} else {
+  console.log('number is odd ');
+}
