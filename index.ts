@@ -72,3 +72,42 @@ if (num % 2 == 0) {
 } else {
   console.log('number is odd ');
 }
+/*nested if else*/
+var num = 0;
+if (num > 0) {
+  console.log('num is positive');
+} else if (num < 0) {
+  console.log('num is negative');
+} else {
+  console.log('neither positive nor negative');
+}
+/*switch case*/
+var grade: string = 'c';
+switch (grade) {
+  case 'A': {
+    console.log('excellent');
+    break;
+  }
+  case 'B': {
+    console.log('good');
+    break;
+  }
+  case 'c': {
+    console.log('Average');
+    break;
+  }
+  default: {
+    console.log('invalid');
+    break;
+  }
+}
+/*loop*/
+
+var num:number=5
+var i:number
+var fact:number=1;
+for(i=5;i<=5;i--)
+{
+  fact=
+
+}
