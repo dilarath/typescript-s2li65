@@ -101,12 +101,11 @@ switch (grade) {
     break;
   }
 }
-/*loop*/
+var num:number = 5; 
+var i:number; 
+var factorial = 1; 
 
-var num: number = 5;
-var i: number;
-var fact: number = 1;
-for (i = 5; i <= 5; i--) {
-  fact = fact * i;
+for(i = num;i>=1;i--) {
+   factorial *= i;
 }
-console.log(fact);
+console.log(factorial)
