@@ -103,11 +103,9 @@ switch (grade) {
 }
 /*loop*/
 
-var num:number=5
-var i:number
-var fact:number=1;
-for(i=5;i<=5;i--)
-{
-  fact=
-
+var num: number = 5;
+var i: number;
+var fact: number = 1;
+for (i = 5; i <= 5; i--) {
+  fact = fact * i;
 }
